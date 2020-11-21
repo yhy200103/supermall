@@ -1,0 +1,19 @@
+git push -u origin master
+ 
+新项目
+1.划分目录结构
+2.引用两个css文件base.css,normalize.css
+3.vue.config,.editorconfig
+assets目录放css img
+css->normalize.css(很多公司都用这个css文件作为初始化)
+->base.css(自己的css,也是初始化)
+views放普通组件
+network 网络相关封装的文件
+store  放vuex状态管理文件
+common=>const.js公共js =>ustils.js公共方法
+components=>common,content
+common是不仅仅与这个项目有关的共公组件
+content放和这个项目有关的公共组件
+
+vue.config.js：定义文件的别名,不用每次都./路径
+.editorconfig：缩进等信息
